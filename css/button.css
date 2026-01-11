@@ -1,35 +1,17 @@
-.button-style {
-    /* The most important line: allows padding and height to work */
-    display: inline-block; 
-    
-    /* Navigation links have underlines by default; this removes it */
-    text-decoration: none; 
-
-    /* Colors and Font */
-    background-color: #3498db;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-
-    /* Spacing (Inside the button) */
-    padding: 12px 24px;
-
-    /* Making it look like a button */
-    border-radius: 5px;
-    box-shadow: 0px 4px 0px #2980b9; /* Adds a "3D" bottom edge */
-    
-    /* Smooth transition for the hover effect */
-    transition: all 0.2s ease;
+.button-link {
+  display: inline-block; /* Makes padding/margins work well */
+  text-decoration: none; /* Removes underline */
+  background-color: #007BFF; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Space inside the button */
+  border-radius: 5px; /* Rounded corners */
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border: none;
 }
 
-/* Hover Effect: The button "lifts" slightly */
-.button-style:hover {
-    background-color: #2980b9;
-    transform: translateY(-2px);
-}
-
-/* Active Effect: The button "depresses" when clicked */
-.button-style:active {
-    transform: translateY(2px);
-    box-shadow: none;
+.button-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  cursor: pointer; /* Changes cursor to a hand */
 }
