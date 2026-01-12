@@ -1,9 +1,3 @@
-/* prevents highlight */
-.no-high {
-  -webkit-user-select: none;
-  user-select: none;
-}
-
 /* navigation  bar */
 .navbar {
     position: sticky;
