@@ -10,13 +10,17 @@
 .centered-div {
     width: 75%;
     height: 75%;
-    background-color: #3498db;
+    background-color: skyblue;
+    border: 5px dashed blue;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     font-family: sans-serif;
     font-weight: bold;
+}
+
+body {
+  background-image: url("../images/cat.jpg");
 }
