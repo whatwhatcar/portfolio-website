@@ -1,6 +1,35 @@
-.navigation {
-    justify-content: space-between;
+.navbar {
     display: flex;
-    padding: 1rem;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    position:sticky;
+    top:0px;
+    padding: 10px 20px;
+
     background-color: aquamarine;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 10px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-list li a:hover {
+    background-color: blue;
 }

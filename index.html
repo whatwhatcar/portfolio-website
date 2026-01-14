@@ -3,19 +3,22 @@
 
 <head>
     <title>welcome!</title>
-    <link rel="icon" type="image/jpg" href="images/cat.jpg">
+    <link rel="icon" type="image/svg" href="icons/home.svg">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/format.css">
     <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navigation">
+    <audio id="clickSound" src="sounds/meowrgh.mp3" preload="auto"></audio>
+
+    <nav class="navbar">
         <div>
             <p>Awesome</p>
         </div>
         <div>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pages/about.html">About</a></li>
             </ul>
@@ -23,8 +26,28 @@
     </nav>
 
     <main>
+        <div class="container">
+            <div class="left half">
+                <div class="parent">
+                    <img src="images/sparkles.jpg" class="image1">
 
+                    <button onclick="playAudio()" type="button">
+                        <img src="images/cat.jpg" alt="me" class="image2">
+                    </button>
+                    
+                    <p class="hall"> hall of fame: me</p>
+                    <p class="click"> click cat 4 surprise</p>
+                </div>
+
+            </div>
+            <div class="right half">
+                <h1>Welcome to my website!</h1>
+                <p>on the left is a visual metaphorical representation of me</p>
+            </div>
+        </div>
     </main>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
