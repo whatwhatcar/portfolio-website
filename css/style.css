@@ -1,0 +1,90 @@
+.container {
+  display: flex; /* Makes the child divs sit side-by-side */
+}
+
+.half {
+  flex: 1; /* Distributes available space equally to both child divs */
+  padding: 20px;
+  /* Add colors for visualization */
+}
+
+.left {
+  background-color: #f0f0f0;
+}
+
+.right {
+  background-color: #e0e0e0;
+}
+
+.circle-image {
+  height: 200px;  /* Set equal height and width */
+  width: 200px;   /* to ensure a perfect circle */
+  border-radius: 50%; /* The magic to make it a circle */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.circle-image:hover {
+    background-color: black;
+}
+
+.overlay {
+    height: 200px; 
+    width: 200px;
+    opacity: 1;
+    position: relative;
+    bottom: 0;
+    z-index: 2;
+    display: block;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 400px;
+}
+.image2 {
+  margin: 100px 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 200px;
+}
+
+.image2:active{
+  transform: scale(1.25);
+}
+
+.hall {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.click {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.check {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
