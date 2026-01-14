@@ -1,26 +1,11 @@
 .container {
-  display: flex; /* Makes the child divs sit side-by-side */
+  display: flex; 
 }
 
-.half {
-  flex: 1; /* Distributes available space equally to both child divs */
-  padding: 20px;
-  /* Add colors for visualization */
-}
-
-.left {
-  background-color: #f0f0f0;
-}
-
-.right {
-  background-color: #e0e0e0;
-}
-
-.circle-image {
-  height: 200px;  /* Set equal height and width */
-  width: 200px;   /* to ensure a perfect circle */
-  border-radius: 50%; /* The magic to make it a circle */
-  object-fit: cover; /* Ensures the image covers the area without stretching */
+.desc {  
+    flex: 1;
+    padding: 20px;
+    background-color: lightcyan;
 }
 
 .circle-image:hover {

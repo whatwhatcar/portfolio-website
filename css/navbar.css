@@ -7,10 +7,10 @@
     top:0px;
     padding: 10px 20px;
 
+    background-color: aquamarine;
+    
     user-select: none;
     -webkit-user-select: none;
-
-    background-color: aquamarine;
 }
 
 .nav-list {
