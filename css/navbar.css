@@ -1,0 +1,6 @@
+.navigation {
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+    background-color: aquamarine;
+}
