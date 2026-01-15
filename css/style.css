@@ -17,10 +17,6 @@
   padding: 0;
 }
 
-.circle-image:hover {
-  background-color: black;
-}
-
 .overlay {
   height: 200px;
   width: 200px;
@@ -70,9 +66,22 @@
   left: 250px;
 }
 
-.my-icon {
+.flex {
+  display: flex;
+}
+
+.check-icon {
+  position: relative;
+  bottom: 3px;
   width: 24px;
   height: 24px;
-  pointer-events: none; /* This ensures clicks pass through to the button/link behind it */
-filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(209deg) brightness(92%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(22%) sepia(96%) saturate(2088%) hue-rotate(102deg) brightness(99%) contrast(104%);
+}
+
+.close-icon {
+  position: relative;
+  bottom: 3px;
+  width: 24px;
+  height: 24px;
+filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(3943%) hue-rotate(340deg) brightness(82%) contrast(108%);
 }
