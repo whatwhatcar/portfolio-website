@@ -8,6 +8,15 @@
   background-color: lightcyan;
 }
 
+.desc hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
 .circle-image:hover {
   background-color: black;
 }
@@ -61,20 +70,25 @@
   left: 250px;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid black;
-  margin: 1em 0;
-  padding: 0;
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  src: url('icons/person.svg') format('woff');
 }
 
-.check {
-  background-color: black;
-  mask-image: url('icon.svg');
-  mask-repeat: no-repeat;
-  mask-size: contain;
-  width: 50px;
-  height: 50px;
+span.size-20 {
+  font-size: 20px;
+  font-variation-settings: 'OPSZ' 20;
+  color: blue;
+}
+
+.person {
+  font-family: 'Material Symbols Outlined';
+}
+
+.my-icon {
+  width: 24px;
+  height: 24px;
+  pointer-events: none; /* This ensures clicks pass through to the button/link behind it */
+filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(209deg) brightness(92%) contrast(100%);
 }
