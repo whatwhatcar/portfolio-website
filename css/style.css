@@ -70,12 +70,6 @@
   left: 250px;
 }
 
-@font-face {
-  font-family: 'Material Symbols Outlined';
-  font-style: normal;
-  src: url('icons/person.svg') format('woff');
-}
-
 span.size-20 {
   font-size: 20px;
   font-variation-settings: 'OPSZ' 20;
