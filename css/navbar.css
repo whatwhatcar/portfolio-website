@@ -1,37 +1,54 @@
-.main-header {
-  width: 100%;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  padding: 10px 0;
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
 }
 
-.header-container {
+.container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-between; 
   
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-.logo img {
-  height: 40px;
-  display: block;
-  margin-right: 40px;
+  width: 100%;           /* Force it to be full width */
+  max-width: 1200px;     /* Prevents it from getting too wide on huge monitors */
+  margin: 0 auto;        /* Keeps the 1200px box centered */
 }
 
-.main-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
+/* Header-specific styling for the logo area */
+.logo {
+    flex-shrink: 0;
+    /* Prevents logo from squishing */
 }
 
-.main-nav ul li a {
-  text-decoration: none;
-  color: #333333;
+/* Independent Logo Block styling */
+.logo__img {
+    display: block;
+    height: 40px;
+    /* Set your desired logo height */
+    width: auto;
+}
 
-  font-family: sans-serif;
-  font-weight: 500;
+/* This only handles positioning! */
+.nav {
+    margin-left: auto;
+    /* Pushes the nav to the right */
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Modifier for the active state */
+.nav-primary__link--active {
+    color: red;
 }
