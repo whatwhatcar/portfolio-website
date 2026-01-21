@@ -10,29 +10,23 @@
   justify-content: space-between;
   align-items: center;
   
-  width: 100%;           /* Force it to be full width */
-  max-width: 1200px;     /* Prevents it from getting too wide on huge monitors */
-  margin: 0 auto;        /* Keeps the 1200px box centered */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Header-specific styling for the logo area */
-.logo {
+.nav-logo {
     flex-shrink: 0;
-    /* Prevents logo from squishing */
 }
 
-/* Independent Logo Block styling */
 .logo__img {
     display: block;
     height: 40px;
-    /* Set your desired logo height */
     width: auto;
 }
 
-/* This only handles positioning! */
-.nav {
+.nav-menu {
     margin-left: auto;
-    /* Pushes the nav to the right */
     padding: 10px;
 }
 
@@ -46,9 +40,4 @@
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif
-}
-
-/* Modifier for the active state */
-.nav-primary__link--active {
-    color: red;
 }
