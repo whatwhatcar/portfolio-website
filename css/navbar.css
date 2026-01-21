@@ -3,36 +3,40 @@
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    position:sticky;
-    top:0px;
+    position: sticky;
+    top: 0px;
     padding: 10px 20px;
 
     background-color: aquamarine;
-    
+
     user-select: none;
     -webkit-user-select: none;
 }
 
-.nav-list {
+.navbar-list {
     display: flex;
     list-style: none;
 }
 
-.nav-list li {
+.navbar-list li {
     margin-right: 10px;
 }
 
-.nav-list li:last-child {
+.navbar-list li:last-child {
     margin-right: 0;
 }
 
-.nav-list a {
+.navbar-list a {
     padding: 10px 10px;
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
 
-.nav-list li a:hover {
+.navbar-list li a:hover {
     background-color: blue;
+}
+
+.main {
+    display: flexbox;
 }
