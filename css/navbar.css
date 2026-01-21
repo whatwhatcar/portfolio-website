@@ -3,16 +3,18 @@
     align-items: center;
     width: 100%;
     background-color: white;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-logo {
