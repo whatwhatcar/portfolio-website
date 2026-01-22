@@ -7,7 +7,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.nav-content {
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
 
-.nav-logo {
+.header-logo {
     flex-shrink: 0;
 }
 
@@ -27,18 +27,18 @@
     width: auto;
 }
 
-.nav-menu {
+.header-menu {
     margin-left: auto;
     padding: 10px;
 }
 
-.nav-list {
+.header-list {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-.nav-link {
+.header-link {
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif
@@ -51,7 +51,16 @@
   text-align: center;
 }
 
-.footer-links {
+.footer-content {
+  max-width: 1200px;    /* Prevents the footer from getting too wide */
+  margin: 0 auto;       /* Centers the content box on the page */
+  padding: 0 20px;      /* Adds "breathing room" on the left and right */
+  display: flex;        /* Aligns the copyright and links in a row */
+  flex-direction: column; /* Stacks them vertically by default */
+  align-items: center;  /* Centers them horizontally */
+}
+
+.footer-menu {
   list-style: none;
   padding: 0;
   display: flex;
@@ -59,7 +68,7 @@
   gap: 20px; /* Spaces the links out */
 }
 
-.footer-links a {
+.footer-link {
   color: white;
   text-decoration: none;
 }
