@@ -60,7 +60,7 @@
   align-items: center;  /* Centers them horizontally */
 }
 
-.footer-menu {
+.footer-list {
   list-style: none;
   padding: 0;
   display: flex;
