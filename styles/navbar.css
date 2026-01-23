@@ -1,48 +1,48 @@
 .header {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: white;
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    z-index: 2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header-logo {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .logo__img {
-    display: block;
-    height: 40px;
-    width: auto;
+  display: block;
+  height: 40px;
+  width: auto;
 }
 
 .header-menu {
-    margin-left: auto;
-    padding: 10px;
+  margin-left: auto;
+  padding: 10px;
 }
 
 .header-list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .header-link {
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .footer {
@@ -53,12 +53,12 @@
 }
 
 .footer-content {
-  max-width: 1200px;    /* Prevents the footer from getting too wide */
-  margin: 0 auto;       /* Centers the content box on the page */
-  padding: 0 20px;      /* Adds "breathing room" on the left and right */
-  display: flex;        /* Aligns the copyright and links in a row */
-  flex-direction: column; /* Stacks them vertically by default */
-  align-items: center;  /* Centers them horizontally */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-list {
@@ -66,7 +66,7 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 20px; /* Spaces the links out */
+  gap: 20px;
 }
 
 .footer-link {
